@@ -1,21 +1,45 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const sections = document.querySelectorAll(".section");
-  const cards = document.querySelectorAll(".feature-card");
+  // Initialize AOS library (scroll animations)
+  AOS.init({
+    duration: 900,       // Smooth transition
+    easing: "ease-in-out",
+    once: true           // Animate only once per element
+  });
 
-  const reveal = (el) => {
-    el.classList.add("visible");
-  };
-
-  const options = { threshold: 0.2 };
-  const observer = new IntersectionObserver((entries, obs) => {
-    entries.forEach(e => {
-      if (e.isIntersecting) {
-        reveal(e.target);
-        obs.unobserve(e.target);
-      }
+  // Smooth Scroll for internal links
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener("click", function (e) {
+      e.preventDefault();
+      document.querySelector(this.getAttribute("href")).scrollIntoView({
+        behavior: "smooth",
+        block: "start"
+      });
     });
-  }, options);
+  });
 
-  sections.forEach(s => observer.observe(s));
-  cards.forEach(c => observer.observe(c));
+  // Animate feature cards with staggered delay
+  const featureCards = document.querySelectorAll(".feature-card");
+  featureCards.forEach((card, index) => {
+    card.setAttribute("data-aos", "fade-up");
+    card.setAttribute("data-aos-delay", index * 150); // Staggered animation
+  });
+
+  // Animate work steps cards
+  const workCards = document.querySelectorAll(".work-card");
+  workCards.forEach((card, index) => {
+    card.setAttribute("data-aos", "zoom-in");
+    card.setAttribute("data-aos-delay", index * 200);
+  });
+
+  // Add smooth hover animation to buttons
+  const buttons = document.querySelectorAll(".button-primary, .button-secondary, .cta-btn");
+  buttons.forEach(btn => {
+    btn.addEventListener("mouseenter", () => {
+      btn.style.transition = "all 0.3s ease-in-out";
+      btn.style.transform = "scale(1.05)";
+    });
+    btn.addEventListener("mouseleave", () => {
+      btn.style.transform = "scale(1)";
+    });
+  });
 });
