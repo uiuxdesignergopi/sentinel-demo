@@ -1,0 +1,593 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1366" height="7301" viewBox="0 0 1366 7301">
+  <defs>
+    <filter id="Rectangle_9" x="98" y="1659" width="390" height="450" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_9-2" x="488" y="1659" width="390" height="450" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-2"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_9-3" x="878" y="1659" width="390" height="450" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-3"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_9-4" x="98" y="2114" width="390" height="450" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-4"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_9-5" x="488" y="2114" width="390" height="450" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-5"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_9-6" x="878" y="2114" width="390" height="450" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-6"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0275d8"/>
+      <stop offset="0.52" stop-color="#019f95"/>
+      <stop offset="1" stop-color="#00c852"/>
+    </linearGradient>
+    <pattern id="pattern" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 1366 715">
+      <image width="1366" height="715" xlink:href="G:/UIUX/PHOTOSHOP/WEBSITES/LEVELL%20THREE/SENTINEL%20SMART%20SYSTEMS/images/hero.png"/>
+    </pattern>
+    <clipPath id="clip-path">
+      <rect y="53.99" width="227.98" height="2" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_7" data-name="Rectangle 7" width="503" height="613" rx="21" transform="translate(1581 873)" stroke="#000" stroke-width="0"/>
+    </clipPath>
+    <filter id="Rectangle_9-7" x="98" y="1659" width="390" height="450" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-7"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur-7"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path-3">
+      <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_9)">
+        <rect id="Rectangle_9-8" data-name="Rectangle 9" width="360" height="420" rx="20" transform="translate(1579 1674)" fill="#fff" stroke="#000" stroke-width="0"/>
+      </g>
+    </clipPath>
+    <filter id="Rectangle_9-9" x="488" y="1659" width="390" height="450" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-8"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur-8"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path-4">
+      <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_9-2)">
+        <rect id="Rectangle_9-10" data-name="Rectangle 9" width="360" height="420" rx="20" transform="translate(1969 1674)" fill="#fff" stroke="#000" stroke-width="0"/>
+      </g>
+    </clipPath>
+    <filter id="Rectangle_9-11" x="878" y="1659" width="390" height="450" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-9"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur-9"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path-5">
+      <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_9-3)">
+        <rect id="Rectangle_9-12" data-name="Rectangle 9" width="360" height="420" rx="20" transform="translate(2359 1674)" fill="#fff" stroke="#000" stroke-width="0"/>
+      </g>
+    </clipPath>
+    <filter id="Rectangle_9-13" x="98" y="2114" width="390" height="450" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-10"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur-10"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path-6">
+      <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_9-4)">
+        <rect id="Rectangle_9-14" data-name="Rectangle 9" width="360" height="420" rx="20" transform="translate(1579 2129)" fill="#fff" stroke="#000" stroke-width="0"/>
+      </g>
+    </clipPath>
+    <filter id="Rectangle_9-15" x="488" y="2114" width="390" height="450" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-11"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur-11"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path-7">
+      <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_9-5)">
+        <rect id="Rectangle_9-16" data-name="Rectangle 9" width="360" height="420" rx="20" transform="translate(1969 2129)" fill="#fff" stroke="#000" stroke-width="0"/>
+      </g>
+    </clipPath>
+    <filter id="Rectangle_9-17" x="878" y="2114" width="390" height="450" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-12"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur-12"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path-8">
+      <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_9-6)">
+        <rect id="Rectangle_9-18" data-name="Rectangle 9" width="360" height="420" rx="20" transform="translate(2359 2129)" fill="#fff" stroke="#000" stroke-width="0"/>
+      </g>
+    </clipPath>
+    <filter id="Rectangle_11" x="203" y="2752" width="449.87" height="244.69" filterUnits="userSpaceOnUse">
+      <feOffset dx="-6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-13"/>
+      <feFlood flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur-13"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_11-2" x="789" y="2752" width="470.99" height="245" filterUnits="userSpaceOnUse">
+      <feOffset dx="-6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-14"/>
+      <feFlood flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur-14"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_11-3" x="206" y="3039" width="449.87" height="244.69" filterUnits="userSpaceOnUse">
+      <feOffset dx="-6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-15"/>
+      <feFlood flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur-15"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_11-4" x="789" y="3039" width="472.99" height="245" filterUnits="userSpaceOnUse">
+      <feOffset dx="-6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-16"/>
+      <feFlood flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur-16"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path-9">
+      <rect id="Rectangle_13" data-name="Rectangle 13" width="555" height="400" rx="30" transform="translate(1581 3482)" stroke="#000" stroke-width="0"/>
+    </clipPath>
+    <pattern id="pattern-2" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 1920 1280">
+      <image width="1920" height="1280" xlink:href="our%20creation-image15.jpg"/>
+    </pattern>
+    <linearGradient id="linear-gradient-9" x1="0.499" y1="0.51" x2="0.501" y2="0.49" gradientUnits="objectBoundingBox">
+      <stop offset="0"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="clip-path-10">
+      <rect id="Rectangle_13-2" data-name="Rectangle 13" width="555" height="400" rx="30" transform="translate(2163 3482)" stroke="#000" stroke-width="0"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-10" x1="0.5" y1="0.515" x2="0.5" y2="0.485" xlink:href="#linear-gradient-9"/>
+    <clipPath id="clip-path-11">
+      <rect id="Rectangle_13-3" data-name="Rectangle 13" width="555" height="400" rx="30" transform="translate(1581 3912)" stroke="#000" stroke-width="0"/>
+    </clipPath>
+    <clipPath id="clip-path-12">
+      <rect id="Rectangle_13-4" data-name="Rectangle 13" width="555" height="400" rx="30" transform="translate(2163 3912)" stroke="#000" stroke-width="0"/>
+    </clipPath>
+    <pattern id="pattern-3" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 2400 1673">
+      <image width="2400" height="1673" xlink:href="our%20creation-image18.jpg"/>
+    </pattern>
+    <linearGradient id="linear-gradient-14" x1="0.5" y1="0.525" x2="0.5" y2="0.475" xlink:href="#linear-gradient-9"/>
+    <clipPath id="clip-path-13">
+      <rect id="Rectangle_19" data-name="Rectangle 19" width="1368" height="600" transform="translate(1465 6234)" stroke="#e1e1e1" stroke-width="1"/>
+    </clipPath>
+    <clipPath id="clip-path-14">
+      <rect id="imageMask" width="518" height="420" transform="translate(1609 6354)" fill="none"/>
+    </clipPath>
+    <pattern id="pattern-4" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 2230 1488">
+      <image width="2230" height="1488" xlink:href="our%20creation-image23.png"/>
+    </pattern>
+    <filter id="Rectangle_20" x="684" y="6334" width="558" height="460" filterUnits="userSpaceOnUse">
+      <feOffset dx="-5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6.5" result="blur-17"/>
+      <feFlood flood-color="#fff" flood-opacity="0"/>
+      <feComposite operator="in" in2="blur-17"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <pattern id="pattern-5" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 512 512">
+      <image width="512" height="512" xlink:href="our%20creation-image26.png"/>
+    </pattern>
+    <pattern id="pattern-6" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 512 512">
+      <image width="512" height="512" xlink:href="our%20creation-image27.png"/>
+    </pattern>
+    <pattern id="pattern-7" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 512 512">
+      <image width="512" height="512" xlink:href="our%20creation-image28.png"/>
+    </pattern>
+    <pattern id="pattern-8" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 512 512">
+      <image width="512" height="512" xlink:href="our%20creation-image29.png"/>
+    </pattern>
+    <pattern id="pattern-9" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 512 512">
+      <image width="512" height="512" xlink:href="our%20creation-image30.png"/>
+    </pattern>
+    <clipPath id="clip-our_creation">
+      <rect width="1366" height="7301"/>
+    </clipPath>
+    <image id="image" width="24" height="24" xlink:href="our%20creation-image.png"/>
+    <image id="image-2" width="10" height="10" xlink:href="our%20creation-image25.png"/>
+  </defs>
+  <g id="our_creation" data-name="our creation" clip-path="url(#clip-our_creation)">
+    <rect width="1366" height="7301" fill="#fff"/>
+    <g id="_1.full_hero_top" data-name="1.full hero top" transform="translate(-1466)">
+      <g id="_1.1_header" data-name="1.1 header">
+        <rect id="Rectangle_3" data-name="Rectangle 3" width="1372" height="100" transform="translate(1462 -2)" fill="#f5f5f5" stroke="#000" stroke-width="0"/>
+        <text id="Home_About_Features_Case_Studies_Blog_Contact_" data-name="Home      About      Features         Case Studies         Blog      Contact
+" transform="translate(1907.234 34.96)" fill="#ff5c28" font-size="18" font-family="DMSans-Regular, 'DM Sans \31 4pt'"><tspan x="0" y="18">Home</tspan><tspan y="18" xml:space="preserve" fill="#1a1a1a">      About      Features         Case Studies         Blog      Contact</tspan></text>
+        <use id="down-arrow_copy" data-name="down-arrow copy" transform="translate(2287 37)" xlink:href="#image"/>
+        <use id="down-arrow_copy_2" data-name="down-arrow copy 2" transform="translate(2135 37)" xlink:href="#image"/>
+        <image id="logo_copy" data-name="logo copy" width="186" height="64" transform="translate(1579 13)" xlink:href="our%20creation-image2.png"/>
+        <g id="primary_btn_copy" data-name="primary btn copy">
+          <g id="primary_btn_copy-2" data-name="primary btn copy">
+            <path id="Rectangle_5" data-name="Rectangle 5" d="M24,0H203.98a24,24,0,0,1,24,24v3.99a24,24,0,0,1-24,24H24a24,24,0,0,1-24-24V24A24,24,0,0,1,24,0Z" transform="translate(2489 22.01)" fill="url(#linear-gradient)"/>
+            <text id="Request_a_Free_Demo" data-name="Request a Free Demo" transform="translate(2509.943 52.148)" fill="#fff" font-size="18" font-family="DMSans-Medium, 'DM Sans \31 4pt'" font-weight="500"><tspan x="0" y="0">Request a Free Demo</tspan></text>
+          </g>
+          <path id="Stroke_Effect" data-name="Stroke Effect" d="M2513,74a24,24,0,0,1-24-24V46.01a24,24,0,0,1,24-24h179.98a24,24,0,0,1,24,24V50a24,24,0,0,1-24,24Z" fill="none"/>
+        </g>
+      </g>
+      <g id="Rectangle_4" data-name="Rectangle 4">
+        <rect id="Rectangle_4-2" data-name="Rectangle 4" width="1372" height="715" transform="translate(1464 98)" stroke="#818181" stroke-width="0" fill="url(#pattern)"/>
+      </g>
+      <g id="full_info_hero" data-name="full info hero">
+        <g id="text">
+          <text id="Know_exactly_what_s_happening_across_your_office_from_air_quality_and_occupancy_to_temperature_and_security_all_tracked_in_real_time_by_intelligent_sensors_and_accessible_anytime_through_a_powerful_unified_dashboard_-_just_a_click_away." data-name="Know exactly what’s happening across your office  from air quality and occupancy to temperature and security all tracked in real time by intelligent sensors, and accessible anytime through a powerful, unified dashboard - just a click away." transform="translate(1579 427.753)" fill="#fff" font-size="18" font-family="DMSans-Regular, 'DM Sans \31 4pt'"><tspan x="0" y="18" xml:space="preserve">Know exactly what’s happening across your office  </tspan><tspan x="0" y="39.6">from air quality and occupancy to temperature and </tspan><tspan x="0" y="61.2">security all tracked in real time by intelligent </tspan><tspan x="0" y="82.8">sensors, and accessible anytime through a </tspan><tspan x="0" y="104.4">powerful, unified dashboard - just a click away.</tspan></text>
+          <text id="Smarter_Offices_Start_with_Sentinel" data-name="Smarter Offices Start with Sentinel" transform="translate(1578.615 267.393)" fill="#fff" font-size="60" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="0" y="63">Smarter Offices </tspan><tspan x="0" y="135">Start with Sentinel</tspan></text>
+        </g>
+        <g id="primary_btn" data-name="primary btn" transform="translate(1579.5 573.5)">
+          <rect id="Rectangle_5-2" data-name="Rectangle 5" width="227.98" height="51.99" rx="24" stroke="#000" stroke-width="0" fill="url(#linear-gradient)"/>
+          <g id="Scroll_Group_1" data-name="Scroll Group 1" clip-path="url(#clip-path)" style="isolation: isolate">
+            <rect id="Rectangle_5-3" data-name="Rectangle 5" width="227.98" height="51.99" rx="24" fill="#ff5722" stroke="#000" stroke-width="0"/>
+          </g>
+          <text id="_Start_Monitoring_Now" data-name=" Start Monitoring Now" transform="translate(21.5 31.5)" fill="#fff" font-size="18" font-family="DMSans-Medium, 'DM Sans \31 4pt'" font-weight="500"><tspan x="0" y="0" xml:space="preserve"> Start Monitoring Now</tspan></text>
+        </g>
+        <g id="secondary_btn" data-name="secondary btn">
+          <g id="Path_1" data-name="Path 1" transform="translate(1827 573)" fill="none">
+            <path d="M24,0H126a24,24,0,0,1,24,24v4a24,24,0,0,1-24,24H24A24,24,0,0,1,0,28V24A24,24,0,0,1,24,0Z" stroke="none"/>
+            <path d="M 24 1 C 20.89457702636719 1 17.88258361816406 1.607978820800781 15.04765319824219 2.807041168212891 C 12.3089599609375 3.965419769287109 9.849136352539062 5.623939514160156 7.736541748046875 7.736541748046875 C 5.623947143554688 9.849140167236328 3.965423583984375 12.3089599609375 2.807037353515625 15.04766082763672 C 1.607986450195312 17.8825798034668 1 20.89458084106445 1 24 L 1 28 C 1 31.10541915893555 1.607986450195312 34.1174201965332 2.807037353515625 36.95233917236328 C 3.965423583984375 39.6910400390625 5.623947143554688 42.15085983276367 7.736541748046875 44.26345825195312 C 9.849136352539062 46.37606048583984 12.3089599609375 48.03458023071289 15.04765319824219 49.19295883178711 C 17.88258361816406 50.39202117919922 20.89457702636719 51 24 51 L 126 51 C 129.1054229736328 51 132.1174163818359 50.39202117919922 134.9523468017578 49.19295883178711 C 137.6910400390625 48.03458023071289 140.1508636474609 46.37606048583984 142.2634582519531 44.26345825195312 C 144.3760528564453 42.15085983276367 146.0345764160156 39.6910400390625 147.1929626464844 36.95233917236328 C 148.3920135498047 34.1174201965332 149 31.10541915893555 149 28 L 149 24 C 149 20.89458084106445 148.3920135498047 17.8825798034668 147.1929626464844 15.04766082763672 C 146.0345764160156 12.3089599609375 144.3760528564453 9.849140167236328 142.2634582519531 7.736541748046875 C 140.1508636474609 5.623939514160156 137.6910400390625 3.965419769287109 134.9523468017578 2.807041168212891 C 132.1174163818359 1.607978820800781 129.1054229736328 1 126 1 L 24 1 M 24 0 L 126 0 C 139.2548370361328 0 150 10.74515914916992 150 24 L 150 28 C 150 41.25484085083008 139.2548370361328 52 126 52 L 24 52 C 10.74516296386719 52 0 41.25484085083008 0 28 L 0 24 C 0 10.74515914916992 10.74516296386719 0 24 0 Z" stroke="none" fill="#707070"/>
+          </g>
+          <text id="View_Features" data-name="View Features" transform="translate(1843 605)" fill="#fff" font-size="18" font-family="DMSans-Medium, 'DM Sans \31 4pt'" font-weight="500"><tspan x="0" y="0">View Features</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g id="_2.about_us_" data-name="2.about us " transform="translate(-1466)">
+      <rect id="sectioin_2_bg" data-name="sectioin 2 bg" width="1366" height="733" transform="translate(1466 813)" fill="#ffbca7" stroke="#000" stroke-width="0" opacity="0.271"/>
+      <g id="video_holder" data-name="video holder">
+        <g id="Rectangle_7-2" data-name="Rectangle 7">
+          <rect id="Rectangle_7-3" data-name="Rectangle 7" width="503" height="613" rx="21" transform="translate(1581 873)" stroke="#000" stroke-width="0"/>
+          <g id="Clip" clip-path="url(#clip-path-2)">
+            <image id="tom-krach-TiEzqFDS5fo-unsplash" width="526" height="789" transform="translate(1579 846)" xlink:href="our%20creation-image4.jpg"/>
+          </g>
+        </g>
+        <g id="play_button" data-name="play button">
+          <circle id="Ellipse_2" data-name="Ellipse 2" cx="53.5" cy="53.5" r="53.5" transform="translate(1779 1126)" fill="#2776d3" stroke="#000" stroke-width="0" opacity="0.631"/>
+          <path id="Ellipse_1" data-name="Ellipse 1" d="M1832.5,1208a28.41,28.41,0,1,1,11.094-2.24A28.324,28.324,0,0,1,1832.5,1208Zm-7-40.625v24.25l21-12.126-21-12.125Z" fill="#f65d38" stroke="#000" stroke-width="0"/>
+        </g>
+      </g>
+      <g id="About_us_info" data-name="About us info">
+        <text id="The_Brain_Behind_Your_Smart_Office" data-name="The Brain Behind Your Smart Office" transform="translate(2146 896.323)" font-size="50" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="0" y="53">The Brain Behind Your </tspan><tspan x="0" y="113">Smart Office</tspan></text>
+        <text id="Sentinel_Smart_Systems_brings_intelligent_automation_and_real-time_insights_to_your_office_environment._From_detecting_air_quality_and_occupancy_to_optimizing_energy_and_access_control_our_sensor_network_helps_you_create_a_safer_healthier_and_more_effi" data-name="Sentinel Smart Systems brings intelligent automation and real-time insights to your office environment. From detecting air quality and occupancy to optimizing energy and access control — our sensor network helps you create a safer, healthier, and more effi" transform="translate(2148 1041.755)" font-size="18" font-family="DMSans-Medium, 'DM Sans \31 4pt'" font-weight="500"><tspan x="0" y="18">Sentinel Smart Systems brings intelligent automation and </tspan><tspan x="0" y="39.6">real-time insights to your office environment. From detecting </tspan><tspan x="0" y="61.2">air quality and occupancy to optimizing energy and access </tspan><tspan x="0" y="82.8">control — our sensor network helps you create a safer, </tspan><tspan x="0" y="104.4">healthier, and more efficient workplace.</tspan><tspan x="0" y="126">Trusted across corporate offices, co-working spaces, and </tspan><tspan x="0" y="147.6">industrial workspaces alike.</tspan></text>
+        <g id="service_types" data-name="service types">
+          <text id="Industries_We_Serve" data-name="Industries We Serve" transform="translate(2154 1198.37)" font-size="24" font-family="Poppins-Bold, Poppins" font-weight="700" text-decoration="underline"><tspan x="0" y="25">Industries We Serve</tspan></text>
+          <text id="Offices_Co-working_Factories_Clinics" data-name="Offices 
+Co-working 
+Factories 
+Clinics" transform="translate(2183.179 1272.058)" font-size="18" font-family="DMSans-Medium, 'DM Sans \31 4pt'" font-weight="500"><tspan x="0" y="0">Offices </tspan><tspan x="0" y="31.8">Co-working </tspan><tspan x="0" y="63.6">Factories </tspan><tspan x="0" y="95.4">Clinics</tspan></text>
+          <image id="office-center" width="23" height="23" transform="translate(2150 1254)" xlink:href="our%20creation-image5.png"/>
+          <image id="workspace" width="21" height="21" transform="translate(2152 1285)" xlink:href="our%20creation-image6.png"/>
+          <image id="factory" width="21" height="21" transform="translate(2154 1317)" xlink:href="our%20creation-image7.png"/>
+          <image id="hospital" width="20" height="20" transform="translate(2154 1352)" xlink:href="our%20creation-image8.png"/>
+        </g>
+        <g id="primary_btn-2" data-name="primary btn">
+          <rect id="Rectangle_5-4" data-name="Rectangle 5" width="325.02" height="51.99" rx="24" transform="translate(2148 1400.01)" stroke="#000" stroke-width="0" fill="url(#linear-gradient)"/>
+          <text id="Learn_More_About_Our_Technology" data-name="Learn More About Our Technology" transform="translate(2168.943 1430.148)" fill="#fff" font-size="18" font-family="DMSans-Medium, 'DM Sans \31 4pt'" font-weight="500"><tspan x="0" y="0">Learn More About Our Technology</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g id="service_section" data-name="service section" transform="translate(-1466)">
+      <rect id="Rectangle_8" data-name="Rectangle 8" width="1391" height="1062" transform="translate(1458 1547)" fill="#f5f5f5" stroke="#000" stroke-width="0"/>
+      <text id="Key_Features_And_Benefits" data-name="Key Features And Benefits" transform="translate(1810 1591)" font-size="50" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="4.895" y="53">Key Features And Benefits</tspan></text>
+      <g id="tiles_set" data-name="tiles set">
+        <g id="tile_1" data-name="tile 1">
+          <g id="Rectangle_9-19" data-name="Rectangle 9">
+            <g transform="matrix(1, 0, 0, 1, 1466, 0)" filter="url(#Rectangle_9-7)">
+              <rect id="Rectangle_9-20" data-name="Rectangle 9" width="360" height="420" rx="20" transform="translate(113 1674)" fill="#fff" stroke="#000" stroke-width="0"/>
+            </g>
+            <g id="Clip-2" data-name="Clip" clip-path="url(#clip-path-3)">
+              <image id="standard-quality-control-concept-m" width="374" height="205" transform="translate(1572 1669)" xlink:href="our%20creation-image9.png"/>
+            </g>
+          </g>
+          <text id="Real-Time_Monitoring" data-name="Real-Time Monitoring" transform="translate(1614.733 1886.065)" font-size="24" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="9.895" y="25">Real-Time Monitoring</tspan></text>
+          <text id="Instantly_track_occupancy_temperature_humidity_and_motion_across_your_workspace." data-name="Instantly track occupancy, temperature, humidity, and motion across your workspace." transform="translate(1626.628 1926.32)" font-size="18" font-family="DMSans-Medium, 'DM Sans \31 4pt'" font-weight="500"><tspan x="20.542" y="18">Instantly track occupancy, </tspan><tspan x="17.779" y="39.6">temperature, humidity, and </tspan><tspan x="1.075" y="61.2">motion across your workspace.</tspan></text>
+          <g id="primary_btn-3" data-name="primary btn">
+            <rect id="Rectangle_5-5" data-name="Rectangle 5" width="119" height="51.99" rx="24" transform="translate(1700 2005.01)" fill="#f56134" stroke="#000" stroke-width="0"/>
+            <text id="More_Info" data-name="More Info" transform="translate(1719.943 2037.148)" fill="#fff" font-size="18" font-family="DMSans-Medium, 'DM Sans \31 4pt'" font-weight="500"><tspan x="0" y="0">More Info</tspan></text>
+          </g>
+        </g>
+        <g id="tile_2" data-name="tile 2">
+          <g id="Rectangle_9-21" data-name="Rectangle 9">
+            <g transform="matrix(1, 0, 0, 1, 1466, 0)" filter="url(#Rectangle_9-9)">
+              <rect id="Rectangle_9-22" data-name="Rectangle 9" width="360" height="420" rx="20" transform="translate(503 1674)" fill="#fff" stroke="#000" stroke-width="0"/>
+            </g>
+            <g id="Clip-3" data-name="Clip" clip-path="url(#clip-path-4)">
+              <image id="pexels-artempodrez-6990291" width="360" height="452" transform="translate(1969 1421)" xlink:href="our%20creation-image10.png"/>
+            </g>
+          </g>
+          <text id="Automated_Savings" data-name="Automated Savings" transform="translate(2004.733 1886.065)" font-size="24" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="21.979" y="25">Automated Savings</tspan></text>
+          <text id="Sensors_automatically_adjust_lighting_and_HVAC_based_on_real-time_usage_patterns" data-name="Sensors automatically adjust lighting and HVAC based on real-time usage patterns" transform="translate(2016.628 1926.32)" font-size="18" font-family="DMSans-Medium, 'DM Sans \31 4pt'" font-weight="500"><tspan x="10.219" y="18">Sensors automatically adjust </tspan><tspan x="15.79" y="39.6">lighting and HVAC based on </tspan><tspan x="26.95" y="61.2">real-time usage patterns</tspan></text>
+          <g id="primary_btn-4" data-name="primary btn">
+            <rect id="Rectangle_5-6" data-name="Rectangle 5" width="119" height="51.99" rx="24" transform="translate(2090 2005.01)" stroke="#000" stroke-width="0" fill="url(#linear-gradient)"/>
+            <text id="More_Info-2" data-name="More Info" transform="translate(2109.943 2037.148)" fill="#fff" font-size="18" font-family="DMSans-Medium, 'DM Sans \31 4pt'" font-weight="500"><tspan x="0" y="0">More Info</tspan></text>
+          </g>
+        </g>
+        <g id="tile_3" data-name="tile 3">
+          <g id="Rectangle_9-23" data-name="Rectangle 9">
+            <g transform="matrix(1, 0, 0, 1, 1466, 0)" filter="url(#Rectangle_9-11)">
+              <rect id="Rectangle_9-24" data-name="Rectangle 9" width="360" height="420" rx="20" transform="translate(893 1674)" fill="#fff" stroke="#000" stroke-width="0"/>
+            </g>
+            <g id="Clip-4" data-name="Clip" clip-path="url(#clip-path-5)">
+              <image id="pexels-alphaen-31726758" width="367" height="447" transform="translate(2356 1426)" xlink:href="our%20creation-image11.png"/>
+            </g>
+          </g>
+          <text id="Air_Quality_Detection" data-name="Air Quality Detection" transform="translate(2394.733 1886.065)" font-size="24" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="17.131" y="25">Air Quality Detection</tspan></text>
+          <text id="Ensure_a_healthier_workplace_with_continuous_air_quality_and_CO_level_insights." data-name="Ensure a healthier workplace with continuous air quality and CO₂ level insights." transform="translate(2406.628 1926.32)" font-size="18" font-family="DMSans-Medium, 'DM Sans \31 4pt'" font-weight="500"><tspan x="10.849" y="18">Ensure a healthier workplace </tspan><tspan x="1.831" y="39.6">with continuous air quality and </tspan><tspan x="57.287" y="61.2">CO</tspan><tspan y="61.2" font-family="SegoeUI, Segoe UI" font-weight="400">₂</tspan><tspan y="61.2" xml:space="preserve"> level insights.</tspan></text>
+          <g id="primary_btn-5" data-name="primary btn">
+            <rect id="Rectangle_5-7" data-name="Rectangle 5" width="119" height="51.99" rx="24" transform="translate(2480 2005.01)" stroke="#000" stroke-width="0" fill="url(#linear-gradient)"/>
+            <text id="More_Info-3" data-name="More Info" transform="translate(2499.943 2037.148)" fill="#fff" font-size="18" font-family="DMSans-Medium, 'DM Sans \31 4pt'" font-weight="500"><tspan x="0" y="0">More Info</tspan></text>
+          </g>
+        </g>
+        <g id="tile_4" data-name="tile 4">
+          <g id="Rectangle_9-25" data-name="Rectangle 9">
+            <g transform="matrix(1, 0, 0, 1, 1466, 0)" filter="url(#Rectangle_9-13)">
+              <rect id="Rectangle_9-26" data-name="Rectangle 9" width="360" height="420" rx="20" transform="translate(113 2129)" fill="#fff" stroke="#000" stroke-width="0"/>
+            </g>
+            <g id="Clip-5" data-name="Clip" clip-path="url(#clip-path-6)">
+              <image id="pexels-jakubzerdzicki-27663079" width="366" height="282" transform="translate(1575 2047)" xlink:href="our%20creation-image12.png"/>
+            </g>
+          </g>
+          <text id="Security_Control" data-name="Security  Control" transform="translate(1614.733 2341.065)" font-size="24" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="42.343" y="25" xml:space="preserve">Security  Control</tspan></text>
+          <text id="Smart_sensors_detect_access_events_and_help_secure_every_entry_point_in_your_office." data-name="Smart sensors detect access events and help secure every entry point in your office." transform="translate(1626.628 2381.32)" font-size="18" font-family="DMSans-Medium, 'DM Sans \31 4pt'" font-weight="500"><tspan x="9.004" y="18">Smart sensors detect access </tspan><tspan x="8.536" y="39.6">events and help secure every </tspan><tspan x="26.104" y="61.2">entry point in your office.</tspan></text>
+          <g id="primary_btn-6" data-name="primary btn">
+            <rect id="Rectangle_5-8" data-name="Rectangle 5" width="119" height="51.99" rx="24" transform="translate(1700 2460.01)" stroke="#000" stroke-width="0" fill="url(#linear-gradient)"/>
+            <text id="More_Info-4" data-name="More Info" transform="translate(1719.943 2492.148)" fill="#fff" font-size="18" font-family="DMSans-Medium, 'DM Sans \31 4pt'" font-weight="500"><tspan x="0" y="0">More Info</tspan></text>
+          </g>
+        </g>
+        <g id="tile_5" data-name="tile 5">
+          <g id="Rectangle_9-27" data-name="Rectangle 9">
+            <g transform="matrix(1, 0, 0, 1, 1466, 0)" filter="url(#Rectangle_9-15)">
+              <rect id="Rectangle_9-28" data-name="Rectangle 9" width="360" height="420" rx="20" transform="translate(503 2129)" fill="#fff" stroke="#000" stroke-width="0"/>
+            </g>
+            <g id="Clip-6" data-name="Clip" clip-path="url(#clip-path-7)">
+              <image id="istockphoto-2165024734-612x612" width="375" height="250" transform="translate(1961 2080)" xlink:href="our%20creation-image13.jpg"/>
+            </g>
+          </g>
+          <text id="Centralized_Dashboard_" data-name="Centralized Dashboard " transform="translate(2004.733 2341.065)" font-size="24" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="1.975" y="25">Centralized Dashboard </tspan></text>
+          <text id="View_and_manage_all_sensor_data_from_a_single_intuitive_dashboard_anytime." data-name="View and manage all sensor data from a single, intuitive dashboard — anytime." transform="translate(2016.628 2381.32)" font-size="18" font-family="DMSans-Medium, 'DM Sans \31 4pt'" font-weight="500"><tspan x="15.727" y="18">View and manage all sensor </tspan><tspan x="18.427" y="39.6">data from a single, intuitive </tspan><tspan x="37.975" y="61.2">dashboard — anytime.</tspan></text>
+          <g id="primary_btn-7" data-name="primary btn">
+            <rect id="Rectangle_5-9" data-name="Rectangle 5" width="119" height="51.99" rx="24" transform="translate(2090 2460.01)" stroke="#000" stroke-width="0" fill="url(#linear-gradient)"/>
+            <text id="More_Info-5" data-name="More Info" transform="translate(2109.943 2492.148)" fill="#fff" font-size="18" font-family="DMSans-Medium, 'DM Sans \31 4pt'" font-weight="500"><tspan x="0" y="0">More Info</tspan></text>
+          </g>
+        </g>
+        <g id="tile_6" data-name="tile 6">
+          <g id="Rectangle_9-29" data-name="Rectangle 9">
+            <g transform="matrix(1, 0, 0, 1, 1466, 0)" filter="url(#Rectangle_9-17)">
+              <rect id="Rectangle_9-30" data-name="Rectangle 9" width="360" height="420" rx="20" transform="translate(893 2129)" fill="#fff" stroke="#000" stroke-width="0"/>
+            </g>
+            <g id="Clip-7" data-name="Clip" clip-path="url(#clip-path-8)">
+              <image id="franck-Pra1zTRwqg0-unsplash" width="376" height="230" transform="translate(2351 2099)" xlink:href="our%20creation-image14.png"/>
+            </g>
+          </g>
+          <text id="_Instant_Alerts_Insights" data-name=" Instant Alerts , Insights" transform="translate(2394.733 2341.065)" font-size="24" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="0.679" y="25" xml:space="preserve"> Instant Alerts , Insights</tspan></text>
+          <text id="Receive_real-time_notifications_and_actionable_insights_for_faster_decision-making." data-name="Receive real-time notifications and actionable insights for faster decision-making." transform="translate(2406.628 2381.32)" font-size="18" font-family="DMSans-Medium, 'DM Sans \31 4pt'" font-weight="500"><tspan x="2.461" y="18">Receive real-time notifications </tspan><tspan x="20.245" y="39.6">and actionable insights for </tspan><tspan x="32.512" y="61.2">faster decision-making.</tspan></text>
+          <g id="primary_btn-8" data-name="primary btn">
+            <rect id="Rectangle_5-10" data-name="Rectangle 5" width="119" height="51.99" rx="24" transform="translate(2480 2460.01)" stroke="#000" stroke-width="0" fill="url(#linear-gradient)"/>
+            <text id="More_Info-6" data-name="More Info" transform="translate(2499.943 2492.148)" fill="#fff" font-size="18" font-family="DMSans-Medium, 'DM Sans \31 4pt'" font-weight="500"><tspan x="0" y="0">More Info</tspan></text>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="How_it_Works" data-name="How it Works" transform="translate(-1466)">
+      <g id="title_bg" data-name="title +bg">
+        <rect id="Rectangle_10" data-name="Rectangle 10" width="1420" height="792" transform="translate(1456 2605)" fill="#e8f4ff" stroke="#000" stroke-width="0"/>
+        <text id="How_Sentinel_Works_" data-name="How Sentinel Works " transform="translate(1883.276 2646.157)" font-size="50" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="28.337" y="53">How Sentinel Works </tspan></text>
+      </g>
+      <g id="_01_step_1" data-name="01 step 1">
+        <g transform="matrix(1, 0, 0, 1, 1466, 0)" filter="url(#Rectangle_11)">
+          <rect id="Rectangle_11-5" data-name="Rectangle 11" width="419.87" height="214.69" rx="20" transform="translate(224 2767)" fill="#fff" stroke="#000" stroke-width="0"/>
+        </g>
+        <text id="_01" data-name="01" transform="translate(1686.943 2958.015)" fill="#e16647" font-size="210" font-family="Poppins-Bold, Poppins" font-weight="700" opacity="0.651" style="mix-blend-mode: multiply;isolation: isolate"><tspan x="-107.94" y="0">01</tspan></text>
+        <text id="Install_Smart_Sensors_in_Your_Office" data-name="Install Smart Sensors in Your Office" transform="translate(1812.301 2815.855)" fill="#e16647" font-size="34" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="0" y="36">Install Smart </tspan><tspan x="0" y="76.8">Sensors in Your </tspan><tspan x="0" y="117.6">Office</tspan></text>
+      </g>
+      <g id="_02_step_2" data-name="02 step 2">
+        <g transform="matrix(1, 0, 0, 1, 1466, 0)" filter="url(#Rectangle_11-2)">
+          <rect id="Rectangle_11-6" data-name="Rectangle 11" width="440.99" height="215" rx="20" transform="translate(810 2767)" fill="#fff" stroke="#000" stroke-width="0"/>
+        </g>
+        <text id="_02" data-name="02" transform="translate(2284.544 2958.015)" fill="#2c7bcb" font-size="210" font-family="Poppins-Bold, Poppins" font-weight="700" letter-spacing="-0.08em" opacity="0.651" style="mix-blend-mode: multiply;isolation: isolate"><tspan x="-120.015" y="0">02</tspan></text>
+        <text id="Connect_to_the_Dashboard_Mobile_App" data-name="Connect to the Dashboard &amp; Mobile App" transform="translate(2418.301 2815.855)" fill="#2f7bc9" font-size="34" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="0" y="36">Connect to the </tspan><tspan x="0" y="76.8">Dashboard &amp; </tspan><tspan x="0" y="117.6">Mobile App</tspan></text>
+      </g>
+      <g id="_03_step_3" data-name="03 step 3">
+        <g transform="matrix(1, 0, 0, 1, 1466, 0)" filter="url(#Rectangle_11-3)">
+          <rect id="Rectangle_11-7" data-name="Rectangle 11" width="419.87" height="214.69" rx="20" transform="translate(227 3054)" fill="#fff" stroke="#000" stroke-width="0"/>
+        </g>
+        <text id="_03" data-name="03" transform="translate(1691.543 3245.015)" fill="#00c853" font-size="210" font-family="Poppins-Bold, Poppins" font-weight="700" letter-spacing="-0.08em" opacity="0.651" style="mix-blend-mode: multiply;isolation: isolate"><tspan x="-123.585" y="0">03</tspan></text>
+        <text id="Monitor_Data_Set_Automation_Rules" data-name="Monitor Data &amp; Set Automation Rules" transform="translate(1823.528 3073.058)" fill="#00c853" font-size="34" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="0" y="36">Monitor Data </tspan><tspan x="0" y="76.8">&amp; Set </tspan><tspan x="0" y="117.6">Automation </tspan><tspan x="0" y="158.4">Rules</tspan></text>
+      </g>
+      <g id="_04_step_4" data-name="04 step 4">
+        <g transform="matrix(1, 0, 0, 1, 1466, 0)" filter="url(#Rectangle_11-4)">
+          <rect id="Rectangle_11-8" data-name="Rectangle 11" width="442.99" height="215" rx="20" transform="translate(810 3054)" fill="#fff" stroke="#000" stroke-width="0"/>
+        </g>
+        <text id="_04" data-name="04" transform="translate(2276.943 3233.015)" fill="#ff5722" font-size="200" font-family="Poppins-Bold, Poppins" font-weight="700" letter-spacing="-0.08em" opacity="0.651" style="mix-blend-mode: multiply;isolation: isolate"><tspan x="-124.9" y="0">04</tspan></text>
+        <text id="Get_Alerts_Insights_for_Better_Decision_Making" data-name="Get Alerts
+Insights for Better  Decision
+Making" transform="translate(2420.332 3073.058)" fill="#e16647" font-size="34" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="0" y="36">Get Alerts</tspan><tspan x="0" y="76.8">Insights for </tspan><tspan x="0" y="117.6" xml:space="preserve">Better  Decision</tspan><tspan x="0" y="158.4">Making</tspan></text>
+      </g>
+    </g>
+    <g id="use_cases" data-name="use cases" transform="translate(-1466)">
+      <rect id="Rectangle_12" data-name="Rectangle 12" width="1401" height="990" transform="translate(1448 3329)" fill="#fff" stroke="#000" stroke-width="0"/>
+      <text id="Workspaces_That_Work_Smarter" data-name="Workspaces That Work Smarter" transform="translate(1735.245 3372.459)" font-size="50" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="0" y="53">Workspaces That Work Smarter</tspan></text>
+      <g id="tile_1-2" data-name="tile 1">
+        <g id="Rectangle_13-5" data-name="Rectangle 13">
+          <rect id="Rectangle_13-6" data-name="Rectangle 13" width="555" height="400" rx="30" transform="translate(1581 3482)" stroke="#000" stroke-width="0"/>
+          <g id="Clip-8" data-name="Clip" clip-path="url(#clip-path-9)">
+            <rect id="musemind-ux-agency-Mgm6aq1UYpI-unsplash" width="658" height="439" transform="translate(1553 3463)" fill="url(#pattern-2)"/>
+            <rect id="Gradient_Fill_2" data-name="Gradient Fill 2" width="4298" height="7301" opacity="0.549" fill="url(#linear-gradient-9)"/>
+          </g>
+        </g>
+        <text id="Corporate_Offices_" data-name="Corporate Offices " transform="translate(1659.076 3713.467)" fill="#fff" font-size="42" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="0" y="44">Corporate Offices </tspan></text>
+        <text id="To_Optimize_workspace_usage" data-name="To Optimize workspace usage" transform="translate(1665.193 3768.687)" fill="#fff" font-size="18" font-family="DMSans-Medium, 'DM Sans \31 4pt'" font-weight="500"><tspan x="63.255" y="18">To Optimize workspace usage</tspan></text>
+        <g id="primary_btn-9" data-name="primary btn">
+          <rect id="Rectangle_5-11" data-name="Rectangle 5" width="119" height="51.99" rx="24" transform="translate(1799 3805.01)" fill="#f56134" stroke="#000" stroke-width="0"/>
+          <text id="More_Info-7" data-name="More Info" transform="translate(1818.943 3837.148)" fill="#fff" font-size="18" font-family="DMSans-Medium, 'DM Sans \31 4pt'" font-weight="500"><tspan x="0" y="0">More Info</tspan></text>
+        </g>
+      </g>
+      <g id="tile_2-2" data-name="tile 2">
+        <g id="Rectangle_13-7" data-name="Rectangle 13">
+          <rect id="Rectangle_13-8" data-name="Rectangle 13" width="555" height="400" rx="30" transform="translate(2163 3482)" stroke="#000" stroke-width="0"/>
+          <g id="Clip-9" data-name="Clip" clip-path="url(#clip-path-10)">
+            <image id="ewan-buck-KrHAJm38YpE-unsplash" width="621" height="414" transform="translate(2124 3469)" xlink:href="our%20creation-image16.jpg"/>
+            <rect id="Gradient_Fill_3" data-name="Gradient Fill 3" width="4298" height="7301" opacity="0.702" fill="url(#linear-gradient-10)"/>
+          </g>
+        </g>
+        <text id="Co-Working_Spaces_" data-name="Co-Working Spaces " transform="translate(2219.076 3713.467)" fill="#fff" font-size="42" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="0" y="44">Co-Working Spaces </tspan></text>
+        <text id="Manage_shared_spaces_efficiently" data-name="Manage shared spaces efficiently" transform="translate(2247.193 3768.687)" fill="#fff" font-size="18" font-family="DMSans-Medium, 'DM Sans \31 4pt'" font-weight="500"><tspan x="47.127" y="18">Manage shared spaces efficiently</tspan></text>
+        <g id="primary_btn-10" data-name="primary btn">
+          <rect id="Rectangle_5-12" data-name="Rectangle 5" width="119" height="51.99" rx="24" transform="translate(2381 3805.01)" stroke="#000" stroke-width="0" fill="url(#linear-gradient)"/>
+          <text id="More_Info-8" data-name="More Info" transform="translate(2400.943 3837.148)" fill="#fff" font-size="18" font-family="DMSans-Medium, 'DM Sans \31 4pt'" font-weight="500"><tspan x="0" y="0">More Info</tspan></text>
+        </g>
+      </g>
+      <g id="tile_3-2" data-name="tile 3">
+        <g id="Rectangle_13-9" data-name="Rectangle 13">
+          <rect id="Rectangle_13-10" data-name="Rectangle 13" width="555" height="400" rx="30" transform="translate(1581 3912)" stroke="#000" stroke-width="0"/>
+          <g id="Clip-10" data-name="Clip" clip-path="url(#clip-path-11)">
+            <image id="tecnic-bioprocess-solutions-xWUNZVW5JOg-unsplash" width="626" height="417" transform="translate(1558 3898)" xlink:href="our%20creation-image17.png"/>
+            <rect id="Gradient_Fill_2-2" data-name="Gradient Fill 2" width="4298" height="7301" opacity="0.51" fill="url(#linear-gradient-9)"/>
+          </g>
+        </g>
+        <text id="Factories_Warehouses_" data-name="Factories Warehouses " transform="translate(1579 4143.467)" fill="#fff" font-size="42" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="37.525" y="44">Factories Warehouses </tspan></text>
+        <text id="Improve_safety_environment_monitoring" data-name="Improve safety &amp; environment monitoring" transform="translate(1665.193 4198.687)" fill="#fff" font-size="18" font-family="DMSans-Medium, 'DM Sans \31 4pt'" font-weight="500"><tspan x="12.495" y="18">Improve safety &amp; environment monitoring</tspan></text>
+        <g id="primary_btn-11" data-name="primary btn">
+          <rect id="Rectangle_5-13" data-name="Rectangle 5" width="119" height="51.99" rx="24" transform="translate(1799 4235.01)" stroke="#000" stroke-width="0" fill="url(#linear-gradient)"/>
+          <text id="More_Info-9" data-name="More Info" transform="translate(1818.943 4267.148)" fill="#fff" font-size="18" font-family="DMSans-Medium, 'DM Sans \31 4pt'" font-weight="500"><tspan x="0" y="0">More Info</tspan></text>
+        </g>
+      </g>
+      <g id="tile_4-2" data-name="tile 4">
+        <g id="Rectangle_13-11" data-name="Rectangle 13">
+          <rect id="Rectangle_13-12" data-name="Rectangle 13" width="555" height="400" rx="30" transform="translate(2163 3912)" stroke="#000" stroke-width="0"/>
+          <g id="Clip-11" data-name="Clip" clip-path="url(#clip-path-12)">
+            <rect id="curtain-inin-saINnPAGsH8-unsplash" width="609" height="425" transform="translate(2133 3895)" fill="url(#pattern-3)"/>
+            <rect id="Gradient_Fill_3-2" data-name="Gradient Fill 3" width="4298" height="7301" opacity="0.502" fill="url(#linear-gradient-14)"/>
+          </g>
+        </g>
+        <text id="Hospitals_Clinics_" data-name="Hospitals &amp; Clinics " transform="translate(2219.076 4143.467)" fill="#fff" font-size="42" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="20.816" y="44">Hospitals &amp; Clinics </tspan></text>
+        <text id="Maintain_optimal_air_quality_hygiene" data-name="Maintain optimal air quality &amp; hygiene" transform="translate(2247.193 4198.687)" fill="#fff" font-size="18" font-family="DMSans-Medium, 'DM Sans \31 4pt'" font-weight="500"><tspan x="29.415" y="18">Maintain optimal air quality &amp; hygiene</tspan></text>
+        <g id="primary_btn-12" data-name="primary btn">
+          <rect id="Rectangle_5-14" data-name="Rectangle 5" width="119" height="51.99" rx="24" transform="translate(2381 4235.01)" stroke="#000" stroke-width="0" fill="url(#linear-gradient)"/>
+          <text id="More_Info-10" data-name="More Info" transform="translate(2400.943 4267.148)" fill="#fff" font-size="18" font-family="DMSans-Medium, 'DM Sans \31 4pt'" font-weight="500"><tspan x="0" y="0">More Info</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g id="TESTIMONIALS_SCROLL" data-name="TESTIMONIALS / SCROLL" transform="translate(-1466)">
+      <rect id="Rectangle_14" data-name="Rectangle 14" width="1368" height="852" transform="translate(1464 4371)" fill="#f56134" stroke="#000" stroke-width="0"/>
+      <g id="Group_1" data-name="Group 1">
+        <text id="Success_Stories_Powered_by_Sentinel" data-name="Success Stories Powered by Sentinel" transform="translate(1579.003 4414.479)" fill="#fff" font-size="52" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="85.846" y="55">Success Stories Powered by Sentinel</tspan></text>
+        <image id="Product_Hunt_-_1260x760_-_9" data-name="Product Hunt - 1260x760 - 9" width="1467" height="723" transform="translate(1413 4500)" xlink:href="our%20creation-image19.png"/>
+        <text id="_We_cut_our_energy_usage_by_37_within_2_months_thanks_to_Sentinel_s_automated_sensors_and_alerts._Arjun_M._Facility_Manager_at_Vertex_Corp_" data-name=" “We cut our energy usage by 37% within 2 months — thanks to Sentinel’s automated sensors and alerts.”
+
+– Arjun M., Facility Manager at Vertex Corp
+
+" transform="translate(1454.075 4810.558)" font-size="16" font-family="DMSans-Medium, 'DM Sans \31 4pt'" font-weight="500"><tspan x="0" y="16" xml:space="preserve"> “We cut our energy </tspan><tspan x="0" y="35.2">usage by 37% within 2 </tspan><tspan x="0" y="54.4">months — thanks to </tspan><tspan x="0" y="73.6">Sentinel’s automated </tspan><tspan x="0" y="92.8">sensors and alerts.”</tspan><tspan x="0" y="112"></tspan><tspan x="0" y="131.2">– Arjun M., Facility </tspan><tspan x="0" y="150.4">Manager at Vertex Corp</tspan><tspan font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="0" y="169.6"></tspan></tspan><tspan font-family="Poppins-Bold" font-weight="700"><tspan x="0" y="188.8"></tspan></tspan></text>
+        <text id="_Setup_took_less_than_a_day_and_we_started_getting_actionable_data_immediately._Dinesh_R._CTO_Skyline_Logistics" data-name=" “Setup took less than a day, and we started getting actionable data immediately.”
+– Dinesh R., CTO, Skyline Logistics" transform="translate(1701.112 4887.558)" font-size="16" font-family="DMSans-Medium, 'DM Sans \31 4pt'" font-weight="500"><tspan x="0" y="16" xml:space="preserve"> “Setup took less than </tspan><tspan x="0" y="39.4">a day, and we started </tspan><tspan x="0" y="62.8">getting actionable </tspan><tspan x="0" y="86.2">data immediately.”</tspan><tspan x="0" y="109.6">– Dinesh R., CTO, </tspan><tspan x="0" y="133">Skyline Logistics</tspan></text>
+        <text id="Before_Sentinel_air_quality_was_a_mystery._Now_it_s_something_we_monitor_and_manage_daily._Rahul_M._Health_Safety_Officer_Brightlabs_Pvt._Ltd." data-name="Before Sentinel, air quality was a mystery. Now, it’s something we monitor and manage daily.”
+– Rahul M., Health &amp; Safety Officer, Brightlabs Pvt. Ltd." transform="translate(1943.112 4740.558)" font-size="16" font-family="DMSans-Medium, 'DM Sans \31 4pt'" font-weight="500"><tspan x="0" y="16">Before Sentinel, air </tspan><tspan x="0" y="39.4">quality was a mystery. </tspan><tspan x="0" y="62.8">Now, it’s something </tspan><tspan x="0" y="86.2">we monitor and </tspan><tspan x="0" y="109.6">manage daily.”</tspan><tspan x="0" y="133">– Rahul M., Health &amp; </tspan><tspan x="0" y="156.4">Safety Officer, </tspan><tspan x="0" y="179.8">Brightlabs Pvt. Ltd.</tspan></text>
+        <text id="What_stood_out_most_was_how_fast_we_got_results_better_energy_use_and_fewer_manual_checks_within_weeks._Kavita_R._IT_Manager_VisionTech_Co-Work" data-name="What stood out most was how fast we got results — better energy use and fewer manual checks within weeks.”
+– Kavita R., IT Manager, VisionTech Co-Work" transform="translate(2188.112 4764.558)" font-size="16" font-family="DMSans-Medium, 'DM Sans \31 4pt'" font-weight="500"><tspan x="0" y="16">What stood out most </tspan><tspan x="0" y="39.4">was how fast we got </tspan><tspan x="0" y="62.8">results — better </tspan><tspan x="0" y="86.2">energy use and fewer </tspan><tspan x="0" y="109.6">manual checks within </tspan><tspan x="0" y="133">weeks.”</tspan><tspan x="0" y="156.4">– Kavita R., IT </tspan><tspan x="0" y="179.8">Manager, VisionTech </tspan></text>
+        <text id="_Sentinel_gave_us_complete_visibility_into_our_facility_we_ve_never_felt_more_in_control_of_our_workspace._Priya_S._Admin_Head_Delta_Spaces" data-name="“Sentinel gave us complete visibility into our facility — we’ve never felt more in control of our workspace.”
+– Priya S., Admin Head, Delta Spaces" transform="translate(2424.112 4855.558)" font-size="16" font-family="DMSans-Medium, 'DM Sans \31 4pt'" font-weight="500"><tspan x="0" y="16">“Sentinel gave us </tspan><tspan x="0" y="39.4">complete visibility </tspan><tspan x="0" y="62.8">into our facility — </tspan><tspan x="0" y="86.2">we’ve never felt more </tspan><tspan x="0" y="109.6">in control of our </tspan><tspan x="0" y="133">workspace.”</tspan><tspan x="0" y="156.4">– Priya S., Admin </tspan><tspan x="0" y="179.8">Head, Delta Spaces</tspan></text>
+        <text id="_The_air_quality_insights_were_a_game-changer_for_our_employees_comfort_and_productivity._Sneha_T._Operations_Lead_Nova_Co-Work" data-name="“The air quality insights were a game-changer for our employees’ comfort and productivity.”
+– Sneha T., Operations Lead, Nova Co-Work" transform="translate(2663.112 4705.558)" font-size="16" font-family="DMSans-Medium, 'DM Sans \31 4pt'" font-weight="500"><tspan x="0" y="16">“The air quality </tspan><tspan x="0" y="39.4">insights were a game-</tspan><tspan x="0" y="62.8">changer for our </tspan><tspan x="0" y="86.2">employees’ comfort </tspan><tspan x="0" y="109.6">and productivity.”</tspan><tspan x="0" y="133">– Sneha T., Operations </tspan><tspan x="0" y="156.4">Lead, Nova Co-Work</tspan></text>
+      </g>
+    </g>
+    <g id="prices_flat" data-name="prices flat" transform="translate(-1466)">
+      <image id="PRICING_PLANS_FLAT" data-name="PRICING PLANS FLAT" width="1452" height="1031" transform="translate(1410 5223)" xlink:href="our%20creation-image21.png"/>
+    </g>
+    <g id="contact_form" data-name="contact form" transform="translate(-1466)">
+      <g id="Rectangle_19-2" data-name="Rectangle 19">
+        <rect id="Rectangle_19-3" data-name="Rectangle 19" width="1368" height="600" transform="translate(1465 6234)" stroke="#e1e1e1" stroke-width="1"/>
+        <g id="Clip-12" data-name="Clip" clip-path="url(#clip-path-13)">
+          <image id="nasa-1lfI7wkGWZ4-unsplash" width="1534" height="1023" transform="translate(1450 6218)" opacity="0.502" xlink:href="our%20creation-image22.jpg"/>
+        </g>
+      </g>
+      <g id="Screenshot" clip-path="url(#clip-path-14)">
+        <rect id="Screenshot-2" data-name="Screenshot" width="635" height="437" transform="translate(1573 6349)" fill="url(#pattern-4)"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 1466, 0)" filter="url(#Rectangle_20)">
+        <rect id="Rectangle_20-2" data-name="Rectangle 20" width="518" height="420" rx="30" transform="translate(709 6354)" stroke="#e1e1e1" stroke-width="1" opacity="0.639"/>
+      </g>
+      <g id="CONTACT_CARD" data-name="CONTACT CARD">
+        <g id="INFO_RECTANGLES" data-name="INFO RECTANGLES">
+          <rect id="Rectangle_18" data-name="Rectangle 18" width="218" height="46" rx="23" transform="translate(2208 6381)" fill="#e1e1e1" stroke="#e1e1e1" stroke-width="1"/>
+          <rect id="Rectangle_18_copy" data-name="Rectangle 18 copy" width="218" height="46" rx="23" transform="translate(2439 6381)" fill="#e1e1e1" stroke="#e1e1e1" stroke-width="1"/>
+          <rect id="Rectangle_18_copy_2" data-name="Rectangle 18 copy 2" width="447.95" height="46" rx="23" transform="translate(2209.03 6440.5)" fill="#e1e1e1" stroke="#e1e1e1" stroke-width="1"/>
+          <rect id="Rectangle_18_copy_3" data-name="Rectangle 18 copy 3" width="447.95" height="46" rx="23" transform="translate(2209.03 6500.5)" fill="#e1e1e1" stroke="#e1e1e1" stroke-width="1"/>
+          <rect id="Rectangle_18_copy_5" data-name="Rectangle 18 copy 5" width="242" height="46" rx="23" transform="translate(2313 6695)" stroke="#e1e1e1" stroke-width="0" fill="url(#linear-gradient)"/>
+          <text id="Request_a_Free_Demo-2" data-name="Request a Free Demo" transform="translate(2342.771 6722.207)" fill="#fff" font-size="18" font-family="DMSans-Medium, 'DM Sans \31 4pt'" font-weight="500"><tspan x="0" y="0">Request a Free Demo</tspan></text>
+          <rect id="Rectangle_18_copy_4" data-name="Rectangle 18 copy 4" width="448.01" height="118.43" rx="23" transform="translate(2209.5 6561.29)" fill="#e1e1e1" stroke="#e1e1e1" stroke-width="1"/>
+        </g>
+        <text id="Last_Name" data-name="Last Name" transform="translate(2226.696 6394.226)" fill="#2a2a2a" font-size="16" font-family="DMSans-Medium, 'DM Sans \31 4pt'" font-weight="500" opacity="0.302"><tspan x="0" y="16">Last Name</tspan></text>
+        <text id="First_Name" data-name="First Name" transform="translate(2458.964 6394.226)" fill="#2a2a2a" font-size="16" font-family="DMSans-Medium, 'DM Sans \31 4pt'" font-weight="500" opacity="0.302"><tspan x="0" y="16">First Name</tspan></text>
+      </g>
+      <text id="Talk_to_Our_Team" data-name="Talk to Our Team" transform="translate(1882 6260.479)" fill="#fff" font-size="52" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="0" y="55">Talk to Our Team</tspan></text>
+      <text id="Company_Name" data-name="Company Name" transform="translate(2226.696 6451.594)" fill="#b7b7b7" font-size="18" font-family="DMSans-Medium, 'DM Sans \31 4pt'" font-weight="500"><tspan x="0" y="18">Company Name</tspan></text>
+      <text id="Company_Email_ID" data-name="Company Email ID" transform="translate(2227.696 6509.594)" fill="#b7b7b7" font-size="18" font-family="DMSans-Medium, 'DM Sans \31 4pt'" font-weight="500"><tspan x="0" y="18">Company Email ID</tspan></text>
+      <text id="Message_Optional_" data-name="Message (Optional)" transform="translate(2229.696 6574.594)" fill="#b7b7b7" font-size="18" font-family="DMSans-Medium, 'DM Sans \31 4pt'" font-weight="500"><tspan x="0" y="18">Message (Optional)</tspan></text>
+    </g>
+    <g id="footer" transform="translate(-1466)">
+      <rect id="Rectangle_21" data-name="Rectangle 21" width="1371" height="471" transform="translate(1462 6830)" fill="#022341" stroke="#e1e1e1" stroke-width="0"/>
+      <g id="arrow">
+        <image id="right_2_" data-name="right (2)" width="10" height="10" transform="translate(1878 6968)" xlink:href="our%20creation-image24.png"/>
+        <use id="right_2_copy" data-name="right (2) copy" transform="translate(1878 7003)" xlink:href="#image-2"/>
+        <use id="right_2_copy_2" data-name="right (2) copy 2" transform="translate(1878 7037)" xlink:href="#image-2"/>
+        <use id="right_2_copy_3" data-name="right (2) copy 3" transform="translate(1878 7073)" xlink:href="#image-2"/>
+        <use id="right_2_copy_4" data-name="right (2) copy 4" transform="translate(1878 7107)" xlink:href="#image-2"/>
+        <use id="right_2_copy_5" data-name="right (2) copy 5" transform="translate(1878 7142)" xlink:href="#image-2"/>
+      </g>
+      <rect id="email_1_" data-name="email (1)" width="39" height="39" transform="translate(2120 7086)" fill="url(#pattern-5)"/>
+      <rect id="phone-call_1_" data-name="phone-call (1)" width="39" height="39" transform="translate(2120 7024)" fill="url(#pattern-6)"/>
+      <text id="sentinelsmart_system.co" data-name="sentinelsmart@system.co" transform="translate(2167.943 7094.22)" fill="#fff" font-size="18" font-family="DMSans-Medium, 'DM Sans \31 4pt'" font-weight="500"><tspan x="0" y="18">sentinelsmart@system.co</tspan></text>
+      <text id="_040_1234_5678" data-name="(040) 1234 5678" transform="translate(2169 7030.015)" fill="#fff" font-size="18" font-family="DMSans-Medium, 'DM Sans \31 4pt'" font-weight="500"><tspan x="0" y="18">(040) 1234 5678</tspan></text>
+      <text id="_2026_Sentinel_Smart_Systems._All_rights_reserved." data-name="© 2026 Sentinel Smart Systems. All rights reserved." transform="translate(1519.623 7234.96)" fill="#e1e1e1" font-size="18" font-family="DMSans-Medium, 'DM Sans \31 4pt'" font-weight="500"><tspan x="0" y="18">© 2026 Sentinel Smart Systems. All rights reserved.</tspan></text>
+      <rect id="Line_1" data-name="Line 1" width="1300" height="1" transform="translate(1499 7210)" fill="#909090" stroke="#e1e1e1" stroke-width="0"/>
+      <rect id="Rectangle_23" data-name="Rectangle 23" width="215" height="44" rx="22" transform="translate(2417 7013)" stroke="#e1e1e1" stroke-width="1" fill="url(#linear-gradient)"/>
+      <text id="Subscribe_Now" data-name="Subscribe Now" transform="translate(2460.443 7041.101)" fill="#fff" font-size="18" font-family="DMSans-Medium, 'DM Sans \31 4pt'" font-weight="500"><tspan x="0" y="0">Subscribe Now</tspan></text>
+      <rect id="twitter_1_" data-name="twitter (1)" width="35" height="34" transform="translate(2234 6947)" fill="url(#pattern-7)"/>
+      <rect id="Layer_10" data-name="Layer 10" width="36" height="36" transform="translate(2121 6947)" fill="url(#pattern-8)"/>
+      <rect id="facebook" width="36" height="36" transform="translate(2177 6947)" fill="url(#pattern-9)"/>
+      <image id="logo_copy-2" data-name="logo copy" width="169" height="51" transform="translate(1579 6890)" xlink:href="our%20creation-image31.png"/>
+    </g>
+    <text id="Smart_sensors._Safer_spaces._Smarter_decisions." data-name="Smart sensors. Safer spaces. Smarter decisions." transform="translate(115 6945.017)" fill="#fff" font-size="8" font-family="DMSans-Medium, 'DM Sans \31 4pt'" font-weight="500"><tspan x="0" y="8">Smart sensors. Safer spaces. Smarter decisions.</tspan></text>
+    <g id="social_" data-name="social " transform="translate(-1466)">
+      <text id="Quick_Links_" data-name="Quick Links " transform="translate(1874.168 6907.26)" fill="#fff" font-size="24" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="0" y="25">Quick Links </tspan></text>
+      <text id="Address" transform="translate(1578.168 6976.26)" fill="#fff" font-size="24" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="0" y="25">Address</tspan></text>
+      <text id="Follow_Us" data-name="Follow Us" transform="translate(2121.168 6908.26)" fill="#fff" font-size="24" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="0" y="25">Follow Us</tspan></text>
+      <text id="Stay_Up-to_-Date" data-name="Stay  Up-to -Date" transform="translate(2427.168 6905.26)" fill="#fff" font-size="24" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="0" y="25" xml:space="preserve">Stay  Up-to -Date</tspan></text>
+      <rect id="Rectangle_22" data-name="Rectangle 22" width="295" height="45" rx="22" transform="translate(2417 6948)" fill="none" stroke="#fff" stroke-width="1"/>
+      <text id="Enter_Company_Email" data-name="Enter Company Email" transform="translate(2438 6957.855)" fill="#fff" font-size="18" font-family="DMSans-Medium, 'DM Sans \31 4pt'" font-weight="500" opacity="0.29"><tspan x="0" y="18">Enter Company Email</tspan></text>
+      <text id="Home_About_Features_Case_Studies_Blog_Contact_2" data-name="Home      About      Features      Case Studies      Blog      Contact
+" transform="translate(1896 6959.647)" fill="#ff6433" font-size="18" font-family="DMSans-Regular, 'DM Sans \31 4pt'"><tspan x="0" y="18" xml:space="preserve">Home      </tspan><tspan x="0" y="52.8" xml:space="preserve" fill="#fff">About      </tspan><tspan x="0" y="87.6" xml:space="preserve" fill="#fff">Features      </tspan><tspan x="0" y="122.4" xml:space="preserve" fill="#fff">Case Studies      </tspan><tspan x="0" y="157.2" xml:space="preserve" fill="#fff">Blog      </tspan><tspan x="0" y="192" fill="#fff">Contact</tspan><tspan fill="#fff" font-family="DMSans-Regular"><tspan x="0" y="226.8"></tspan></tspan></text>
+    </g>
+    <text id="_408_A_NewYork_Apartments_1st_Lane_Kothapet_K.V._Ranga_Reddy_500_060" data-name="408/A, NewYork Apartments, 1st Lane,
+Kothapet, 
+K.V. Ranga Reddy
+500 060" transform="translate(113 7018.96)" fill="#e1e1e1" font-size="18" font-family="DMSans-Medium, 'DM Sans \31 4pt'" font-weight="500"><tspan x="0" y="18">408/A, NewYork </tspan><tspan x="0" y="43.6">Apartments, 1st Lane,</tspan><tspan x="0" y="69.2">Kothapet, </tspan><tspan x="0" y="94.8">K.V. Ranga Reddy</tspan><tspan x="0" y="120.4">500 060</tspan></text>
+  </g>
+</svg>
