@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>404 Not Found</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background: #fff;
+      overflow: hidden;
+    }
+
+    /* Bubble Canvas */
+    #bubblesCanvas {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+    }
+
+    /* 404 Section */
+    .page_404 {
+      text-align: center;
+      padding: 40px;
+      position: relative;
+      z-index: 10;
+    }
+
+    .four_zero_four_bg {
+      background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 400px;
+    }
+
+    .four_zero_four_bg h1 {
+      font-size: 80px;
+      color: #333;
+    }
+
+    .contant_box_404 {
+      margin-top: -40px;
+    }
+
+    .contant_box_404 h3 {
+      font-size: 26px;
+      margin-bottom: 10px;
+      color: #444;
+    }
+
+    .contant_box_404 p {
+      font-size: 16px;
+      margin-bottom: 20px;
+      color: #666;
+    }
+
+ 
+    /* Button same as site CTA button */
+    .link_404 {
+      position: relative;
+      overflow: hidden;
+      background: linear-gradient(90deg, #0275d8, #00c853);
+      border: none;
+      color: white;
+      padding: 12px 28px;
+      border-radius: 24px;
+      font-family: "DM Sans", sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      cursor: pointer;
+      z-index: 1;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .link_404::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -100%;
+      width: 100%;
+      height: 100%;
+      background: #ff5722;
+      border-radius: 24px;
+      transition: bottom 0.25s ease-in-out;
+      z-index: -1;
+    }
+
+    .link_404:hover::before {
+      bottom: 0;
+    }
+  </style>
+</head>
+<body>
+  <!-- Bubbles Background -->
+  <canvas id="bubblesCanvas"></canvas>
+
+  <!-- 404 Content -->
+  <section class="page_404">
+    <div class="four_zero_four_bg">
+      <h1>404</h1>
+    </div>
+
+    <div class="contant_box_404">
+      <h3>GOPI is busy in building sites</h3>
+      <p>NOT FOUND! The page you are looking for is not available!</p>
+      <a href="sentinel.html" class="link_404">Go to Home</a>
+    </div>
+  </section>
+
+  <!-- Bubble Script -->
+  <script>
+    const canvas = document.getElementById("bubblesCanvas");
+    const ctx = canvas.getContext("2d");
+
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+
+    let bubbles = [];
+
+    class Bubble {
+      constructor(x, y, radius, speed) {
+        this.x = x;
+        this.y = y;
+        this.radius = radius;
+        this.speed = speed;
+      }
+      draw() {
+        ctx.beginPath();
+        ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
+        ctx.fillStyle = "rgba(0, 200, 255, 0.3)";
+        ctx.fill();
+      }
+      update() {
+        this.y -= this.speed;
+        if (this.y + this.radius < 0) {
+          this.y = canvas.height + this.radius;
+          this.x = Math.random() * canvas.width;
+        }
+        this.draw();
+      }
+    }
+
+    function initBubbles() {
+      bubbles = [];
+      for (let i = 0; i < 30; i++) {
+        let radius = Math.random() * 20 + 10;
+        let x = Math.random() * canvas.width;
+        let y = Math.random() * canvas.height;
+        let speed = Math.random() * 1 + 0.5;
+        bubbles.push(new Bubble(x, y, radius, speed));
+      }
+    }
+
+    function animateBubbles() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      bubbles.forEach((bubble) => bubble.update());
+      requestAnimationFrame(animateBubbles);
+    }
+
+    window.addEventListener("resize", () => {
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+      initBubbles();
+    });
+
+    initBubbles();
+    animateBubbles();
+  </script>
+</body>
+</html>

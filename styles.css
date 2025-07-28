@@ -1,0 +1,457 @@
+/* === GLOBAL === */
+body {
+  margin: 0;
+  font-family: "DM Sans", sans-serif;
+  background: #fff;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 113px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+header .logo img {
+  height: 40px;
+  padding-left: 12px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #333;
+}
+
+nav a:hover {
+  color: #ff5722;
+}
+
+/* === HERO === */
+.hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url("images/hero.png") no-repeat center/cover;
+  display: flex;
+  align-items: center;
+  padding: 0 113px; /* No top padding */
+  box-sizing: border-box;
+}
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.hero-content {
+  position: relative;
+  color: white;
+  max-width: 600px;
+  z-index: 1;
+}
+
+.hero-content h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.hero-content p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+/* === BUTTONS === */
+.hero-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.button-primary,
+.button-secondary {
+  position: relative;
+  overflow: hidden;
+  padding: 0 28px;
+  height: 48px;
+  border-radius: 24px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+  z-index: 1;
+}
+
+/* PRIMARY BUTTON */
+.button-primary {
+  background: linear-gradient(90deg, #0275d8, #00c853);
+  color: white;
+  border: none;
+}
+
+.button-primary::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -100%;
+  width: 100%;
+  height: 100%;
+  background: #ff5722;
+  border-radius: 24px;
+  transition: bottom 0.25s ease-in-out;
+  z-index: -1;
+}
+
+.button-primary:hover::before {
+  bottom: 0;
+}
+
+/* SECONDARY BUTTON */
+.button-secondary {
+  position: relative;
+  background: transparent;
+  color: white;
+  padding: 0 28px;
+  height: 48px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+  border: none;
+  border-radius: 24px; /* Capsule shape */
+  overflow: hidden;
+  z-index: 1;
+}
+
+/* Create gradient border using ::before */
+.button-secondary::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: 1px; /* Border thickness */
+  border-radius: 24px;
+  background: linear-gradient(90deg, #0275d8, #00c853);
+  -webkit-mask: 
+      linear-gradient(#fff 0 0) content-box, 
+      linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: exclude;
+  pointer-events: none;
+  z-index: -1;
+}
+
+/* Hover Fill Effect */
+.button-secondary:hover {
+  color: white;
+}
+
+.button-secondary:hover::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 24px;
+  background: #ff5722;
+  z-index: -2;
+  animation: fillUp 0.25s ease-in-out forwards;
+}
+
+@keyframes fillUp {
+  0% { transform: translateY(100%); }
+  100% { transform: translateY(0); }
+}
+
+/* Section 2 – Smart Office */
+.smart-office {
+  display: flex;
+  align-items: center;
+  max-width: 1366px;
+  margin: 0 auto;
+  padding: 80px 113px;
+  background: #fde7ef;
+  gap: 80px; /* 🔹 Keeps proper space between image and text */
+}
+
+.smart-office-image {
+  width: 420px;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.smart-office-image img:first-child {
+  width: 420px;
+  height: auto;
+  display: block;
+  border-radius: 12px;
+}
+
+.play-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 72px;
+  height: 72px;
+  transform: translate(-50%, -50%);
+}
+
+
+
+/* Heading */
+.smart-office-text h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;    /* match SVG */
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+/* Paragraph */
+.smart-office-text p {
+  font-size: 18px;    /* match body font size */
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+
+/* Industries block */
+.industries {
+  margin-bottom: 30px;
+}
+
+.industries h5 {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  text-decoration: underline;
+}
+
+.industry-icons {
+  display: flex;
+  gap: 36px;
+}
+
+.industry-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.industry-item img {
+  width: 44px;  /* icon size tuned for 1366px width */
+  height: 44px;
+  margin-bottom: 6px;
+}
+
+.industry-item span {
+  font-size: 16px;
+  color: #444;
+}
+
+/* CTA button (already same as hero button) */
+.cta-btn {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(90deg, #0275d8, #00c853);
+  border: none;
+  color: white;
+  padding: 0 28px;
+  height: 48px;
+  border-radius: 24px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.cta-btn::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -100%;
+  width: 100%;
+  height: 100%;
+  background: #ff5722;
+  border-radius: 24px;
+  transition: bottom 0.25s ease-in-out;
+  z-index: -1;
+}
+
+.cta-btn:hover::before {
+  bottom: 0;
+}
+.features-section {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.features-section h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+.features-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px; /* 30px gap between cards */
+}
+
+/* CARD */
+.feature-card {
+  width: 360px;
+  height: 420px;
+  background: #f9f9f9;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
+  overflow: hidden; /* Prevent overflow */
+   padding: 0PX 0px 20PX 0px;
+}
+
+.feature-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0;      /* remove margin */
+  padding: 0;     /* remove padding */
+}
+
+}
+/* TITLE */
+.feature-card h4 {
+  font-size: 24px;
+  margin: 10px 0 5px 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+/* DESCRIPTION */
+.feature-card p {
+  font-size: 15px;
+  line-height: 1.4;
+  color: #444;
+  flex-grow: 1; /* pushes button down */
+}
+
+/* CTA BUTTON */
+.feature-card .cta-btn {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(90deg, #0275d8, #00c853);
+  border: none;
+  color: white;
+  padding: 20PX 20px 20PX 20px;
+  height: 48px;
+  border-radius: 24px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.feature-card .cta-btn::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 100%;
+  width: 100%;
+  height: 100%;
+  background: #ff5722;
+  border-radius: 24px;
+  transition: bottom 0.25s ease-in-out;
+  z-index: -1;
+}
+
+.feature-card .cta-btn:hover::before {
+  bottom: 0;
+}
+
+
+/*                    Section Styling                 HOW IT WORKS                     */
+.how-sentinel-works {
+  background-color: #e8f4ff;
+  padding: 80px 113px;
+  text-align: center;
+}
+
+.section-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+/* Row Layout */
+.works-row {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+/* Card Styling */
+.work-card {
+  width: 360px;
+  height: 220px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: left;
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.work-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Big Number */
+.big-number {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  font-size: 140px;
+  font-weight: 800;
+  color: rgba(0, 94, 255, 0.25); /* Light faded effect */
+  z-index: 0;
+}
+
+/* Card Content */
+.work-card h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 100px; /* Push text below the number */
+  margin-bottom: 10px;
+  position: relative;
+  z-index: 1;
+}
+
+.work-card p {
+  font-size: 16px;
+  color: #696969;
+  line-height: 1.5;
+  position: relative;
+  z-index: 1;
+}
