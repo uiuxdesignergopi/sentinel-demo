@@ -3,68 +3,60 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>404 Not Found</title>
+  <title>404 - Page Not Found</title>
 
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=DM+Sans:wght@400&display=swap');
 
     body {
-      font-family: 'DM Sans', sans-serif;
-      background: #fff;
+      margin: 0;
+      font-family: "DM Sans", sans-serif;
       overflow: hidden;
     }
 
-    /* Bubble Canvas */
-    #bubblesCanvas {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      z-index: -1;
-    }
-
-    /* 404 Section */
     .page_404 {
-      text-align: center;
-      padding: 40px;
       position: relative;
-      z-index: 10;
+      width: 100%;
+      height: 100vh;
+      background: #fff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      z-index: 1;
+      text-align: center;
     }
 
     .four_zero_four_bg {
       background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+      height: 350px;
+      width: 100%;
       background-position: center;
       background-repeat: no-repeat;
-      height: 400px;
     }
 
     .four_zero_four_bg h1 {
+      font-family: "Poppins", sans-serif;
       font-size: 80px;
-      color: #333;
+      font-weight: 700;
+      margin: 0;
     }
 
     .contant_box_404 {
-      margin-top: -40px;
+      margin-top: -30px;
     }
 
     .contant_box_404 h3 {
       font-size: 26px;
+      font-weight: 700;
       margin-bottom: 10px;
-      color: #444;
     }
 
     .contant_box_404 p {
-      font-size: 16px;
+      font-size: 18px;
       margin-bottom: 20px;
-      color: #666;
     }
 
- 
     /* Button same as site CTA button */
     .link_404 {
       position: relative;
@@ -99,83 +91,97 @@
     .link_404:hover::before {
       bottom: 0;
     }
+
+    #bubblesCanvas {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 0;
+    }
   </style>
 </head>
 <body>
-  <!-- Bubbles Background -->
+
   <canvas id="bubblesCanvas"></canvas>
 
-  <!-- 404 Content -->
   <section class="page_404">
     <div class="four_zero_four_bg">
       <h1>404</h1>
     </div>
 
     <div class="contant_box_404">
-      <h3>GOPI is busy in building sites</h3>
-      <p>NOT FOUND! The page you are looking for is not available!</p>
+      <h3>Look like you're lost</h3>
+      <p>The page you are looking for is not available!</p>
       <a href="index.html" class="link_404">Go to Home</a>
     </div>
   </section>
 
-  <!-- Bubble Script -->
   <script>
     const canvas = document.getElementById("bubblesCanvas");
     const ctx = canvas.getContext("2d");
-
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
 
     let bubbles = [];
 
-    class Bubble {
-      constructor(x, y, radius, speed) {
-        this.x = x;
-        this.y = y;
-        this.radius = radius;
-        this.speed = speed;
-      }
-      draw() {
-        ctx.beginPath();
-        ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
-        ctx.fillStyle = "rgba(0, 200, 255, 0.3)";
-        ctx.fill();
-      }
-      update() {
-        this.y -= this.speed;
-        if (this.y + this.radius < 0) {
-          this.y = canvas.height + this.radius;
-          this.x = Math.random() * canvas.width;
-        }
-        this.draw();
-      }
+    function createBubble(x, y) {
+      bubbles.push({
+        x: x,
+        y: y,
+        radius: Math.random() * 10 + 5,
+        dx: (Math.random() - 0.5) * 1,
+        dy: Math.random() * -1.5 - 0.5,
+        opacity: 1
+      });
     }
 
-    function initBubbles() {
-      bubbles = [];
-      for (let i = 0; i < 30; i++) {
-        let radius = Math.random() * 20 + 10;
-        let x = Math.random() * canvas.width;
-        let y = Math.random() * canvas.height;
-        let speed = Math.random() * 1 + 0.5;
-        bubbles.push(new Bubble(x, y, radius, speed));
-      }
-    }
+    // Auto-generate bubbles slowly
+    setInterval(() => {
+      createBubble(Math.random() * canvas.width, canvas.height);
+    }, 400);
 
-    function animateBubbles() {
-      ctx.clearRect(0, 0, canvas.width, canvas.height);
-      bubbles.forEach((bubble) => bubble.update());
-      requestAnimationFrame(animateBubbles);
-    }
+    // Generate more bubbles on click
+    canvas.addEventListener("click", (e) => {
+      for (let i = 0; i < 10; i++) {
+        createBubble(e.clientX, e.clientY);
+      }
+    });
 
     window.addEventListener("resize", () => {
       canvas.width = window.innerWidth;
       canvas.height = window.innerHeight;
-      initBubbles();
     });
 
-    initBubbles();
-    animateBubbles();
+    function drawBubbles() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      for (let i = 0; i < bubbles.length; i++) {
+        const b = bubbles[i];
+        ctx.beginPath();
+        ctx.arc(b.x, b.y, b.radius, 0, Math.PI * 2);
+        ctx.fillStyle = `rgba(135,206,250,${b.opacity})`;
+        ctx.fill();
+        ctx.closePath();
+
+        b.x += b.dx;
+        b.y += b.dy;
+        b.opacity -= 0.005;
+
+        if (b.opacity <= 0) {
+          bubbles.splice(i, 1);
+          i--;
+        }
+      }
+    }
+
+    function animate() {
+      drawBubbles();
+      requestAnimationFrame(animate);
+    }
+
+    animate();
   </script>
+
 </body>
 </html>
