@@ -3,26 +3,62 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>404 Not Found</title>
+  <title>404 - Page Not Found</title>
+
   <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=DM+Sans:wght@400&display=swap');
+
     body {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
+      margin: 0;
+      font-family: "DM Sans", sans-serif;
+      overflow: hidden;
+    }
+
+    .page_404 {
+      position: relative;
+      width: 100%;
       height: 100vh;
       background: #fff;
-      font-family: "DM Sans", sans-serif;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      z-index: 1;
+      text-align: center;
     }
 
-    #cube-container {
-      width: 400px;
-      height: 400px;
+    .four_zero_four_bg {
+      background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+      height: 350px;
+      width: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
     }
 
+    .four_zero_four_bg h1 {
+      font-family: "Poppins", sans-serif;
+      font-size: 80px;
+      font-weight: 700;
+      margin: 0;
+    }
+
+    .contant_box_404 {
+      margin-top: -30px;
+    }
+
+    .contant_box_404 h3 {
+      font-size: 26px;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    .contant_box_404 p {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+
+    /* Button same as site CTA button */
     .link_404 {
-      margin-top: 20px;
       position: relative;
       overflow: hidden;
       background: linear-gradient(90deg, #0275d8, #00c853);
@@ -55,35 +91,97 @@
     .link_404:hover::before {
       bottom: 0;
     }
+
+    #bubblesCanvas {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 0;
+    }
   </style>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r83/three.min.js"></script>
 </head>
 <body>
-  <div id="cube-container"></div>
-  <a href="index.html" class="link_404">Go to Home</a>
+
+  <canvas id="bubblesCanvas"></canvas>
+
+  <section class="page_404">
+    <div class="four_zero_four_bg">
+      <h1>404</h1>
+    </div>
+
+    <div class="contant_box_404">
+      <h3>GOPI is busy in building the site</h3>
+      <p>The page you are looking will be made in future</p>
+      <a href="index.html" class="link_404">Go to Home</a>
+    </div>
+  </section>
 
   <script>
-    let scene = new THREE.Scene();
-    let camera = new THREE.PerspectiveCamera(75, 1, 0.1, 1000);
-    let renderer = new THREE.WebGLRenderer({ antialias: true });
-    renderer.setSize(400, 400);
-    document.getElementById("cube-container").appendChild(renderer.domElement);
+    const canvas = document.getElementById("bubblesCanvas");
+    const ctx = canvas.getContext("2d");
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
 
-    let geometry = new THREE.BoxGeometry(2, 2, 2);
-    let material = new THREE.MeshNormalMaterial({ wireframe: false });
-    let cube = new THREE.Mesh(geometry, material);
-    scene.add(cube);
+    let bubbles = [];
 
-    camera.position.z = 5;
+    function createBubble(x, y) {
+      bubbles.push({
+        x: x,
+        y: y,
+        radius: Math.random() * 10 + 5,
+        dx: (Math.random() - 0.5) * 1,
+        dy: Math.random() * -1.5 - 0.5,
+        opacity: 1
+      });
+    }
+
+    // Auto-generate bubbles slowly
+    setInterval(() => {
+      createBubble(Math.random() * canvas.width, canvas.height);
+    }, 400);
+
+    // Generate more bubbles on click
+    canvas.addEventListener("click", (e) => {
+      for (let i = 0; i < 10; i++) {
+        createBubble(e.clientX, e.clientY);
+      }
+    });
+
+    window.addEventListener("resize", () => {
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+    });
+
+    function drawBubbles() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      for (let i = 0; i < bubbles.length; i++) {
+        const b = bubbles[i];
+        ctx.beginPath();
+        ctx.arc(b.x, b.y, b.radius, 0, Math.PI * 2);
+        ctx.fillStyle = `rgba(135,206,250,${b.opacity})`;
+        ctx.fill();
+        ctx.closePath();
+
+        b.x += b.dx;
+        b.y += b.dy;
+        b.opacity -= 0.005;
+
+        if (b.opacity <= 0) {
+          bubbles.splice(i, 1);
+          i--;
+        }
+      }
+    }
 
     function animate() {
+      drawBubbles();
       requestAnimationFrame(animate);
-      cube.rotation.x += 0.01;
-      cube.rotation.y += 0.01;
-      renderer.render(scene, camera);
     }
 
     animate();
   </script>
+
 </body>
 </html>
